@@ -42,6 +42,7 @@ try {
         it + if (it.matches(Regex(".*<jvmargs>$"))) "<arg value=\"-Dfile.encoding=UTF8\"/>" else ""
     })
 // WORKAROUND END
+    @Suppress("UnstableApiUsage")
     ant.importBuild(antScript, gradle.rootProject.projectDir.absolutePath) {
         "mpsant-$it"
     }
@@ -65,11 +66,19 @@ try {
         group = "build"
         doLast {
             listOf("languages", "solutions").forEach {
-                File(it).walkTopDown().filter {
+                val d = project.projectDir.resolve(it)
+                println("INFO: cleaning all _gen dirs from: $d")
+                d.walkTopDown().filter {
                     it.name.contains("_gen")
                 }.forEach {
                     it.deleteRecursively()
                 }
+            }
+            val buildDir = project.projectDir.resolve("build")
+            listOf("tmp", "artifacts").forEach {
+                val d = buildDir.resolve(it)
+                println("INFO: cleaning from build dir: $d")
+                d.deleteRecursively()
             }
         }
     }

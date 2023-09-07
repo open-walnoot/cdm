@@ -238,7 +238,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="2cLOtskjgKu" role="2OqNvi">
-                  <ref role="37wK5l" to="zrbp:~Collection.toSet()" resolve="toSet" />
+                  <ref role="37wK5l" to="zrbp:~Collection.asSet()" resolve="asSet" />
                 </node>
               </node>
             </node>
@@ -318,7 +318,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="vNxUCQ$XLO" role="2OqNvi">
-                  <ref role="37wK5l" to="zrbp:~Collection.toList()" resolve="toList" />
+                  <ref role="37wK5l" to="zrbp:~Collection.asList()" resolve="asList" />
                 </node>
               </node>
             </node>

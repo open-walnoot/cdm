@@ -36,6 +36,7 @@
       </concept>
       <concept id="6666499814681415858" name="jetbrains.mps.core.xml.structure.XmlElement" flags="ng" index="2pNNFK">
         <property id="6666499814681415862" name="tagName" index="2pNNFO" />
+        <property id="6999033275467544021" name="shortEmptyNotation" index="qg3DV" />
         <child id="6666499814681415861" name="attributes" index="2pNNFR" />
         <child id="1622293396948928802" name="content" index="3o6s8t" />
       </concept>
@@ -138,6 +139,7 @@
       </concept>
       <concept id="6592112598314498932" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPlugin" flags="ng" index="m$_wf">
         <property id="6592112598314498927" name="id" index="m$_wk" />
+        <child id="1359186315025500371" name="xml" index="20twgj" />
         <child id="7832771629084912518" name="vendor" index="2iVFfd" />
         <child id="6592112598314498931" name="version" index="m$_w8" />
         <child id="6592112598314499050" name="content" index="m$_yh" />
@@ -210,7 +212,7 @@
     <property role="TrG5h" value="CDM" />
     <property role="turDy" value="mps_build.xml" />
     <node concept="2_Ic$z" id="6yzeGAIR7r7" role="3989C9">
-      <property role="TZNOO" value="11" />
+      <property role="TZNOO" value="17" />
     </node>
     <node concept="2kB4xC" id="APFKISzjR5" role="1l3spd">
       <property role="TrG5h" value="version" />
@@ -281,6 +283,22 @@
       </node>
       <node concept="m$f5U" id="APFKISzjSN" role="m$_yh">
         <ref role="m$f5T" node="APFKISzjS_" resolve="cdmGroup" />
+      </node>
+      <node concept="2pNNFK" id="ffBaz0uMNX" role="20twgj">
+        <property role="2pNNFO" value="idea-version" />
+        <property role="qg3DV" value="true" />
+        <node concept="2pNUuL" id="ffBaz0uMOz" role="2pNNFR">
+          <property role="2pNUuO" value="since-build" />
+          <node concept="2pMdtt" id="ffBaz0uMO$" role="2pMdts">
+            <property role="2pMdty" value="223.5000.0000" />
+          </node>
+        </node>
+        <node concept="2pNUuL" id="ffBaz0uMP9" role="2pNNFR">
+          <property role="2pNUuO" value="until-build" />
+          <node concept="2pMdtt" id="ffBaz0uMPa" role="2pMdts">
+            <property role="2pMdty" value="223.9000.0000" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2G$12M" id="APFKISzjS_" role="3989C9">

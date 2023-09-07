@@ -169,7 +169,7 @@
                   <node concept="3clFbS" id="KwT0zclbDA" role="3clFbx">
                     <node concept="1O1abz" id="KwT0zcleFJ" role="3cqZAp">
                       <node concept="2GrUjf" id="KwT0zcleG8" role="1O1k6O">
-                        <ref role="2Gs0qQ" node="KwT0zclbuW" resolve="ref" />
+                        <ref role="2Gs0qQ" node="KwT0zclbuW" resolve="mid" />
                       </node>
                     </node>
                   </node>
