@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/devkits/cdm.lang.devkit/cdm.lang.devkit.devkit" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/cdm.lang.diagrams/cdm.lang.diagrams.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/cdm.lang/cdm.lang.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/cdm.lang.build/cdm.lang.build.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/cdm.lang.java/cdm.lang.java.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/cdm.lang.plugin/cdm.lang.plugin.msd" folder="" />
+    </projectModules>
+  </component>
+</project>

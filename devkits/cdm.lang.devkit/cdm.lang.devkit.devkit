@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dev-kit name="cdm.lang.devkit" uuid="259f22a2-e06a-49cb-b9fd-3b4617386159">
+  <exported-language name="2b379ad1-c243-479c-be1a-0c81bd5ce136(cdm.lang)" />
+  <exported-language name="32eda001-8b77-43a2-9fef-6a583f23415a(cdm.lang.diagrams)" />
+  <exported-language name="ce36526d-d793-4b8b-88e9-d1815f616441(DclareGui)" />
+  <exported-solutions>
+    <exported-solution>4877daf1-7d5d-4496-8bf8-73cd83352a72(cdm.lang.java)</exported-solution>
+  </exported-solutions>
+</dev-kit>
+
